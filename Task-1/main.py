@@ -10,4 +10,4 @@ from sklearn.linear_model import LinearRegression
 brain = LinearRegression()
 brain.fit(X,y)
 x = brain.predict([[float(input("Enter Years of Experience :->"))]])
-print(x)
+print(x[0])
